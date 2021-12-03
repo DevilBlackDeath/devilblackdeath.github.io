@@ -1,0 +1,419 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="author" content="MarkdownViewer++" />
+        <title>CouchFriendGames.md</title>
+        <style type="text/css">
+            
+/* Avoid page breaks inside the most common attributes, especially for exports (i.e. PDF) */
+td, h1, h2, h3, h4, h5, p, ul, ol, li {
+    page-break-inside: avoid; 
+}
+
+body {
+	color: white;
+}
+
+.gameHeaders {
+	font-family: Impact;
+	font-size: 2.3em;
+	text-align: center;
+	text-transform: uppercase;
+	
+	-webkit-text-stroke: 1.2px black;
+	
+	margin: 60px auto 30px auto;
+}
+
+.gameCollapse {
+	background-color: #3A3A3A;
+	
+	color: white;
+	font-weight: bold;
+	text-align: left;
+	
+	padding: 5px 10px;
+	margin: 5px 0 0 0;
+	border: none;
+	
+	cursor: pointer;
+	outline: none;
+}
+.gameActive, .gameCollapse:hover {
+	background-color: #555555;
+}
+
+.fullCollapse {
+	background-color: #DFDFDF;
+	
+	color: black;
+	text-align: center;
+	
+	margin: 0 10px 20px 10px;
+}
+
+.fullActive, .fullCollapse:hover {
+	background-color: #F1F1F1;
+}
+
+.gameDescContainer {
+	background-color: #000000BB;
+	
+	overflow: hidden;
+	
+	padding: 0px 15px;
+	border-radius: 0px 3px 3px 3px;
+	
+	max-height: 0;
+	transition: max-height 0.2s ease-out;
+}
+
+.gameDesc {
+	font-size: 14px;
+}
+
+.headerRulers {
+	color: white;
+	background-color: white;
+	height: 3px;
+	border-radius: 1px;
+	
+	border: 0;
+	
+	margin:0;
+}
+
+        </style>
+      </head>
+    <body style="background-image: url('game_bg.jpg');background-size:cover;background-attachment:fixed">
+        <div style="margin:50px auto 50px auto;width:500px;max-width:60vw;min-width:320px;background-color:#00000088;padding:60px">
+			<div style="display:flex;justify-content:center;">
+				<div style="display:flex;align-items:center">
+					<button type="button" class="showAll gameCollapse fullCollapse">Tout afficher</button>
+					<button type="button" class="hideAll gameCollapse fullCollapse">Tout cacher</button>
+				</div>
+			</div>
+			
+			<h1 class="gameHeaders" style="color:#AAEEAF;margin-top:0;">
+				<hr class="headerRulers">
+				&nbsp;- Jeux Cooperatifs -&nbsp;
+				<hr class="headerRulers">
+			</h1>
+			
+			<div>
+				<button type="button" class="gameCollapse">Assault Android Cactus</button>
+				<div class="gameDescContainer">
+					<p class="gameDesc">Shooter vue de dessus avec des armes de bourrins contre une armée de robots</p>
+				</div>
+			</div>
+			
+			<div>
+				<button type="button" class="gameCollapse">Battleblock Theater</button>
+				<div class="gameDescContainer">
+					<p class="gameDesc">Puzzle-game avec l'humour des devs de Castle Crashers</p>
+				</div>
+			</div>
+			
+			<div>
+				<button type="button" class="gameCollapse">Bonkies</button>
+				<div class="gameDescContainer">
+					<p class="gameDesc">FINI (mais pas avec toutes les bananes dorées :O)</p>
+				</div>
+			</div>
+			
+			<div>
+				<button type="button" class="gameCollapse">Broforce</button>
+				<div class="gameDescContainer">
+					<p class="gameDesc">L'indétrônable (mais qu'on a quand même fini trop de fois)</p>
+				</div>
+			</div>
+			
+			<div>
+				<button type="button" class="gameCollapse">Castle Crashers</button>
+				<div class="gameDescContainer">
+					<p class="gameDesc">Beat-em up bourrin</p>
+				</div>
+			</div>
+			
+			<div>
+				<button type="button" class="gameCollapse">Death Squared</button>
+				<div class="gameDescContainer">
+					<p class="gameDesc">Dont l'avantage est de pouvoir être joué à 3 et à 4 en faisant pas les mêmes niveaux puisqu'ils dépendent du nombre de joueurs</p>
+				</div>
+			</div>
+			
+			<div>
+				<button type="button" class="gameCollapse">Dungeon Defenders 2</button>
+				<div class="gameDescContainer">
+					<p class="gameDesc">Tower defense coop gratuit, joli, bien foutu</p>
+				</div>
+			</div>
+			
+			<div>
+				<button type="button" class="gameCollapse">Fling to the Finish</button>
+				<div class="gameDescContainer">
+					<p class="gameDesc">Jeu qu'on avait testé en démo où on est deux bestioles tenues par une corde et on fait une sorte de course (il est sorti en Early access pour le moment)</p>
+				</div>
+			</div>
+			
+			<div>
+				<button type="button" class="gameCollapse">Heave Oh</button>
+				<div class="gameDescContainer">
+					<p class="gameDesc">Le jeu où on doit se balancer et on ne contrôle que des têtes qui ont deux bras et rien d'autre</p>
+				</div>
+			</div>
+			
+			<div>
+				<button type="button" class="gameCollapse">Iron Fisticle</button>
+				<div class="gameDescContainer">
+					<p class="gameDesc">Jeu retro arcade où on contrôle des petits chevaliers qui vont tuer des monstres dans un donjon</p>
+				</div>
+			</div>
+			
+			<div>
+				<button type="button" class="gameCollapse">Keep Talking and Nobody Explodes</button>
+				<div class="gameDescContainer">
+					<p class="gameDesc">Pierre l'a pas fait de tête et je peux aussi rajouter des mods</p>
+				</div>
+			</div>
+			
+			<div>
+				<button type="button" class="gameCollapse">KeyWe</button>
+				<div class="gameDescContainer">
+					<p class="gameDesc">Jeu de coop façon Overcooked mais moins chaotique à priori, où on contrôle des Kiwis (l'animal, le petit oiseau)</p>
+				</div>
+			</div>
+			
+			<div>
+				<button type="button" class="gameCollapse">Moving Out</button>
+				<div class="gameDescContainer">
+					<p class="gameDesc">Pour le mode Moving In 😀</p>
+				</div>
+			</div>
+			
+			<div>
+				<button type="button" class="gameCollapse">Octodad</button>
+				<div class="gameDescContainer">
+					<p class="gameDesc">Parce que qui ne voudrait pas faire ce jeu à 4 où chacun contrôle UN membre de Octodad</p>
+				</div>
+			</div>
+			
+			<div>
+				<button type="button" class="gameCollapse">Particubes </button>
+				<div class="gameDescContainer">
+					<p class="gameDesc">Jeu gratuit où l'on peut créer/coder nos propre mini jeux et jouer à ceux des autres. Pour la partie jouer à ceux des autres ça peut être marrant (puis je pourrai peut être en créer quelques un allez savoir)</p>
+				</div>
+			</div>
+			
+			<div>
+				<button type="button" class="gameCollapse">Potion Party</button>
+				<div class="gameDescContainer">
+					<p class="gameDesc">Jeu qui marchait pas la dernière fois mais je le garde en liste pour quand il marchera justement</p>
+				</div>
+			</div>
+			
+			<div>
+				<button type="button" class="gameCollapse">Rogue Heroes</button>
+				<div class="gameDescContainer">
+					<p class="gameDesc">Zelda en coop, ça peut être très fun pour un jeu plus &quot;aventure suivie&quot;</p>
+				</div>
+			</div>
+			
+			<div>
+				<button type="button" class="gameCollapse">Tools Up</button>
+				<div class="gameDescContainer">
+					<p class="gameDesc">A finir moi avec Pierre, c'est le jeu de rénovation/installation de maison</p>
+				</div>
+			</div>
+			
+			<h1 class="gameHeaders" style="color:#FA99A7;">
+				<hr class="headerRulers">
+				&nbsp;- Jeux Competitifs -&nbsp;
+				<hr class="headerRulers">
+			</h1>
+			
+			<div>
+				<button type="button" class="gameCollapse">Boomerang Fu</button>
+				<div class="gameDescContainer">
+					<p class="gameDesc">L'incontournable où faut débloquer TOUS les chapeaux, non mais d'abord !</p>
+				</div>
+			</div>
+			
+			<div>
+				<button type="button" class="gameCollapse">Bro Falls</button>
+				<div class="gameDescContainer">
+					<p class="gameDesc">Clone de Fall Guys mais gratuit</p>
+				</div>
+			</div>
+			
+			<div>
+				<button type="button" class="gameCollapse">Dodgeball Academia</button>
+				<div class="gameDescContainer">
+					<p class="gameDesc">Le fameux jeu dodgeball + pokemon (meme si du coup y a pas trop d'aspect Pokemon en multi)</p>
+				</div>
+			</div>
+			
+			<div>
+				<button type="button" class="gameCollapse">Duck Game</button>
+				<div class="gameDescContainer">
+					<p class="gameDesc">Meurtre entre canards</p>
+				</div>
+			</div>
+			
+			<div>
+				<button type="button" class="gameCollapse">Fling to the Finish</button>
+				<div class="gameDescContainer">
+					<p class="gameDesc">On est deux bestioles tenues par une corde et on fait une sorte de course (il en Early access pour le moment)</p>
+				</div>
+			</div>
+			
+			<div>
+				<button type="button" class="gameCollapse">Genital Jousting</button>
+				<div class="gameDescContainer">
+					<p class="gameDesc">Vous reprendrez bien un p'tit coup d'bite dans... la bite?!??!!?</p>
+				</div>
+			</div>
+			
+			<div>
+				<button type="button" class="gameCollapse">Just Act Natural</button>
+				<div class="gameDescContainer">
+					<p class="gameDesc">Un peu comme Unspottable. Il faut se fondre dans la masse et ne pas se faire détecter par les joueurs assassins qui jouent soit des assassins dans la foule, soit un sniper au loin qui a une vue d'ensemble de la map</p>
+				</div>
+			</div>
+			
+			<div>
+				<button type="button" class="gameCollapse">Pummel Party</button>
+				<div class="gameDescContainer">
+					<p class="gameDesc">Mario Party-like</p>
+				</div>
+			</div>
+			
+			<div>
+				<button type="button" class="gameCollapse">Prominence Poker</button>
+				<div class="gameDescContainer">
+					<p class="gameDesc">Poker gratuit en ligne</p>
+				</div>
+			</div>
+			
+			<div>
+				<button type="button" class="gameCollapse">Roof Rage</button>
+				<div class="gameDescContainer">
+					<p class="gameDesc">Smash Bros-like avec du karaté et du kung fu où Florine et Ninie ont gagné legit donc c'est un bon jeusmile: (même pas ironique, j'aime aussi peu être avantagé que désavantagé et c'est un bon jeu en vrai)</p>
+				</div>
+			</div>
+			
+			<div>
+				<button type="button" class="gameCollapse">Sonic Robo Blast 2 Kart</button>
+				<div class="gameDescContainer">
+					<p class="gameDesc">Mario Kart-like avec pleins de maps et de persos, y a un mode course mais aussi un mode bataille comme dans Mario Kart (j'ai déjà installé une plâtrée de mods donc y aura du choix si on joue à ça)</p>
+				</div>
+			</div>
+			
+			<div>
+				<button type="button" class="gameCollapse">Stick Fight</button>
+				<div class="gameDescContainer">
+					<p class="gameDesc">Carnage bourrin avec des bonhommes bâtons</p>
+				</div>
+			</div>
+			
+			<div>
+				<button type="button" class="gameCollapse">Super Smash Crusade</button>
+				<div class="gameDescContainer">
+					<p class="gameDesc">Smash Bros mais en gratuit jouable en ligne sur PC avec plein de mods pour rajouter les persos qu'on veut dedans</p>
+				</div>
+			</div>
+			
+			<div>
+				<button type="button" class="gameCollapse">Unspottable</button>
+				<div class="gameDescContainer">
+					<p class="gameDesc">Idem que Potion Party</p>
+				</div>
+			</div>
+			
+			<div>
+				<button type="button" class="gameCollapse">Worms</button>
+				<div class="gameDescContainer">
+					<p class="gameDesc">Comment ça il sera jamais sélectionné parce que Ninie déteste</p>
+				</div>
+			</div>
+			
+			<h1 class="gameHeaders" style="color:#88AFEE;">
+				<hr class="headerRulers">
+				&nbsp;- Emulation -&nbsp;
+				<hr class="headerRulers">
+			</h1>
+		</div>
+
+
+
+		<script>
+			var coll = document.getElementsByClassName("gameCollapse");
+			var i;
+			
+			for (i = 0; i < coll.length; i++) {
+			  if (!coll[i].classList.contains("fullCollapse")) {
+				  coll[i].addEventListener("click", function() {
+					collapseClick(this);
+				  });
+			  }
+			  else if (coll[i].classList.contains("showAll")) {
+				  coll[i].addEventListener("click", function() {
+					showAll();
+				  });
+			  }
+			  else if (coll[i].classList.contains("hideAll")) {
+				  coll[i].addEventListener("click", function() {
+					hideAll();
+				  });
+			  }
+			}
+			
+			function collapseClick(elemCollapse) {
+				elemCollapse.classList.toggle("active");
+				var content = elemCollapse.nextElementSibling;
+				
+				if (content.style.maxHeight) {
+					collapseHide(content);
+				} else {
+					collapseShow(content);
+				}
+			}
+			
+			function collapseShow(elemShow) {
+				elemShow.style.maxHeight = elemShow.scrollHeight+"px";
+			}
+			
+			function collapseHide(elemHide) {
+				elemHide.style.maxHeight = null;
+			}
+			
+			function showAll() {
+				var massColl = document.getElementsByClassName("gameCollapse");
+				var j;
+				
+				for (j = 0; j < massColl.length; j++) {
+					if (!massColl[j].classList.contains("fullCollapse")) {
+						var content = massColl[j].nextElementSibling;
+						collapseShow(content);
+					}
+				}
+			}
+			
+			function hideAll() {
+				var massColl = document.getElementsByClassName("gameCollapse");
+				var j;
+				
+				for (j = 0; j < massColl.length; j++) {
+					if (!massColl[j].classList.contains("fullCollapse")) {
+						var content = massColl[j].nextElementSibling;
+						collapseHide(content);
+					}
+				}
+			}
+		</script>
+
+    </body>
+</html>
+            
